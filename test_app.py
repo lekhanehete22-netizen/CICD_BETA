@@ -8,4 +8,4 @@ def test_home_page():
 
     assert response.status_code == 200
 
-    assert b"Welcometo flask ci/cd" in response.data
+    assert b"Welcome to CICD Project" in response.data
